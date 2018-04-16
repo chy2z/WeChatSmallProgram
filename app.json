@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/tabBar/index/index",
+    "pages/tabBar/scan-code/scan-code",
+    "pages/tabBar/logs/logs",
+    "pages/tabBar/my/my"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/tabBar/index/index",
+        "text": "首页",
+        "iconPath": "./res/img/home_noselect.png",
+        "selectedIconPath": "./res/img/home_select.png"
+      },
+      {
+        "pagePath": "pages/tabBar/logs/logs",
+        "text": "日志",
+        "iconPath": "./res/img/trace_noselect.png",
+        "selectedIconPath": "./res/img/trace_select.png"
+      },  
+      {
+        "pagePath": "pages/tabBar/scan-code/scan-code",
+        "text": "扫码",
+        "iconPath": "./res/img/trace_noselect.png",
+        "selectedIconPath": "./res/img/trace_select.png"
+      },
+      {
+        "pagePath": "pages/tabBar/my/my",
+        "text": "我的",
+        "iconPath": "./res/img/mine_noselect.png",
+        "selectedIconPath": "./res/img/mine_select.png"
+      }
+    ]
+  },
+  "window":{
+    "navigationBarBackgroundColor": "#FF7400",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "微信接口功能演示",
+    "backgroundColor": "black",
+    "backgroundTextStyle": "FF7400"
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "downloadFile": 20000,
+    "connectSocket":20000,
+    "uploadFile":20000
+  },
+  "debug": false
+}
